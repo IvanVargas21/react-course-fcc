@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import Visibility from './component/Visibility'
+import Form from './component/Form'
 
 function App() {
   //let counter = 15
@@ -21,6 +23,9 @@ function App() {
       onClick={removeValue}
       >Remove value</button>
       <p>footer: {counter} </p>
+
+      <Visibility/>
+      <Form />
     </>
   )
 }
